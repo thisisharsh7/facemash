@@ -5,6 +5,9 @@ import ActionButtons from './components/ActionButtons';
 import BottomNavigation from './components/BottomNavigation';
 import NoMoreProfiles from './components/NoMoreProfiles';
 
+const API_BASE = 'https://facemash-86hr.onrender.com';
+
+
 const App = () => {
   const [currentProfile, setCurrentProfile] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -17,7 +20,7 @@ const App = () => {
     setNoMoreProfiles(false);
     setProfileReady(false);
     try {
-      const response = await fetch('http://localhost:3001/api/next-profile');
+      const response = await fetch(`${API_BASE}/api/next-profile`);
       const data = await response.json();
       if (response.ok) {
         setCurrentProfile(data);
@@ -37,13 +40,11 @@ const App = () => {
     setProfileReady(false); // disable until next profile comes
 
     try {
-      await fetch('http://localhost:3001/api/rate-profile', {
+      await fetch(`${API_BASE}/api/rate-profile`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ profile_id: currentProfile.profile_id, reaction }),
       });
-
-      setCurrentProfile(null);
       setTimeout(() => {
         fetchNextProfile();
       }, 300);
@@ -54,7 +55,7 @@ const App = () => {
 
   const handleResetSearch = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/reset-search', {
+      const res = await fetch(`${API_BASE}/api/reset-search`, {
         method: 'POST',
       });
       const data = await res.json();
