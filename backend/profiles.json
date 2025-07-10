@@ -1,0 +1,952 @@
+[
+  {
+    "profile_id": "p1",
+    "age": 21,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["music", "photography", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 3, "travel": 2, "photography": 1},
+        "liked_universities": {"IIT Bombay": 4},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/1.jpg"
+  },
+  {
+    "profile_id": "p2",
+    "age": 22,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["music", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "coding": 2},
+        "liked_universities": {"IIT Delhi": 3},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/2.jpg"
+  },
+  {
+    "profile_id": "p3",
+    "age": 20,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["photography", "dance", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "travel": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/3.jpg"
+  },
+  {
+    "profile_id": "p4",
+    "age": 23,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["coding", "music", "sports"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 3, "sports": 2},
+        "liked_universities": {"NIT Trichy": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/4.jpg"
+  },
+  {
+    "profile_id": "p5",
+    "age": 22,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["music", "reading", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "reading": 1},
+        "liked_universities": {"IIT Bombay": 3},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/5.jpg"
+  },
+  {
+    "profile_id": "p6",
+    "age": 21,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["coding", "photography", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "photography": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/6.jpg"
+  },
+  {
+    "profile_id": "p7",
+    "age": 20,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "travel": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/7.jpg"
+  },
+  {
+    "profile_id": "p8",
+    "age": 23,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "coding", "music"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/8.jpg"
+  },
+  {
+    "profile_id": "p9",
+    "age": 22,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["reading", "music", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"reading": 2, "music": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/9.jpg"
+  },
+  {
+    "profile_id": "p10",
+    "age": 21,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["gaming", "coding", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"gaming": 2, "travel": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg"
+  },
+  {
+    "profile_id": "p11",
+    "age": 20,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["music", "dance", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "dance": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/11.jpg"
+  },
+  {
+    "profile_id": "p12",
+    "age": 23,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "coding": 1},
+        "liked_universities": {"IIT Delhi": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/12.jpg"
+  },
+  {
+    "profile_id": "p13",
+    "age": 22,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["travel", "reading", "music"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"travel": 2, "reading": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/13.jpg"
+  },
+  {
+    "profile_id": "p14",
+    "age": 21,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["photography", "coding", "music"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/14.jpg"
+  },
+  {
+    "profile_id": "p15",
+    "age": 20,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "travel", "reading"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "travel": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/15.jpg"
+  },
+  {
+    "profile_id": "p16",
+    "age": 23,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "gaming", "coding"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "gaming": 1},
+        "liked_universities": {"NIT Trichy": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/16.jpg"
+  },
+  {
+    "profile_id": "p17",
+    "age": 22,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["music", "photography", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "photography": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/17.jpg"
+  },
+  {
+    "profile_id": "p18",
+    "age": 21,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["coding", "gaming", "sports"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "sports": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/18.jpg"
+  },
+  {
+    "profile_id": "p19",
+    "age": 20,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "music", "reading"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "music": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/19.jpg"
+  },
+  {
+    "profile_id": "p20",
+    "age": 23,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["travel", "coding", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"travel": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/20.jpg"
+  },
+  {
+    "profile_id": "p21",
+    "age": 22,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["reading", "music", "dance"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"reading": 2, "music": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/21.jpg"
+  },
+  {
+    "profile_id": "p22",
+    "age": 21,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["gaming", "sports", "coding"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"gaming": 2, "sports": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/22.jpg"
+  },
+  {
+    "profile_id": "p23",
+    "age": 20,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["photography", "travel", "music"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "travel": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/23.jpg"
+  },
+  {
+    "profile_id": "p24",
+    "age": 23,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["coding", "sports", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "sports": 1},
+        "liked_universities": {"IIT Delhi": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/24.jpg"
+  },
+  {
+    "profile_id": "p25",
+    "age": 22,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["music", "reading", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "reading": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/25.jpg"
+  },
+  {
+    "profile_id": "p26",
+    "age": 21,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["photography", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/26.jpg"
+  },
+  {
+    "profile_id": "p27",
+    "age": 20,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "music": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/27.jpg"
+  },
+  {
+    "profile_id": "p28",
+    "age": 23,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "coding": 1},
+        "liked_universities": {"NIT Trichy": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/28.jpg"
+  },
+  {
+    "profile_id": "p29",
+    "age": 22,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["reading", "music", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"reading": 2, "music": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/29.jpg"
+  },
+  {
+    "profile_id": "p30",
+    "age": 21,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["gaming", "coding", "sports"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"gaming": 2, "coding": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/30.jpg"
+  },
+  {
+    "profile_id": "p31",
+    "age": 20,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["music", "dance", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "dance": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/31.jpg"
+  },
+  {
+    "profile_id": "p32",
+    "age": 23,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["coding", "sports", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "sports": 1},
+        "liked_universities": {"IIT Bombay": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/32.jpg"
+  },
+  {
+    "profile_id": "p33",
+    "age": 22,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["travel", "reading", "music"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"travel": 2, "reading": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/33.jpg"
+  },
+  {
+    "profile_id": "p34",
+    "age": 21,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["photography", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "coding": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/34.jpg"
+  },
+  {
+    "profile_id": "p35",
+    "age": 20,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "music": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/35.jpg"
+  },
+  {
+    "profile_id": "p36",
+    "age": 23,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "coding": 1},
+        "liked_universities": {"IIT Delhi": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg"
+  },
+  {
+    "profile_id": "p37",
+    "age": 22,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["music", "reading", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "reading": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/37.jpg"
+  },
+  {
+    "profile_id": "p38",
+    "age": 21,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["gaming", "coding", "sports"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"gaming": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/38.jpg"
+  },
+  {
+    "profile_id": "p39",
+    "age": 20,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["travel", "music", "dance"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"travel": 2, "music": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/39.jpg"
+  },
+  {
+    "profile_id": "p40",
+    "age": 23,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["coding", "sports", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "sports": 1},
+        "liked_universities": {"NIT Trichy": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/40.jpg"
+  },
+  {
+    "profile_id": "p41",
+    "age": 22,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["reading", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"reading": 2, "music": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/41.jpg"
+  },
+  {
+    "profile_id": "p42",
+    "age": 21,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["photography", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "coding": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/42.jpg"
+  },
+  {
+    "profile_id": "p43",
+    "age": 20,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["dance", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"dance": 2, "music": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/43.jpg"
+  },
+  {
+    "profile_id": "p44",
+    "age": 23,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["sports", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"sports": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/44.jpg"
+  },
+  {
+    "profile_id": "p45",
+    "age": 22,
+    "gender": "female",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["music", "reading", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"music": 2, "reading": 1},
+        "liked_universities": {"IIT Delhi": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/45.jpg"
+  },
+  {
+    "profile_id": "p46",
+    "age": 21,
+    "gender": "male",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["gaming", "coding", "sports"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"gaming": 2, "coding": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/46.jpg"
+  },
+  {
+    "profile_id": "p47",
+    "age": 20,
+    "gender": "female",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2027,
+    "interests": ["travel", "music", "dance"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"travel": 2, "music": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [19, 22]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/47.jpg"
+  },
+  {
+    "profile_id": "p48",
+    "age": 23,
+    "gender": "male",
+    "city": "Delhi",
+    "university": "IIT Delhi",
+    "degree": "B.Tech",
+    "year": 2025,
+    "interests": ["coding", "sports", "photography"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"coding": 2, "sports": 1},
+        "liked_universities": {"IIT Delhi": 3},
+        "liked_age_range": [22, 25]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg"
+  },
+  {
+    "profile_id": "p49",
+    "age": 22,
+    "gender": "female",
+    "city": "Bangalore",
+    "university": "NIT Trichy",
+    "degree": "M.Tech",
+    "year": 2025,
+    "interests": ["reading", "music", "travel"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"reading": 2, "music": 1},
+        "liked_universities": {"NIT Trichy": 2},
+        "liked_age_range": [21, 24]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/49.jpg"
+  },
+  {
+    "profile_id": "p50",
+    "age": 21,
+    "gender": "male",
+    "city": "Mumbai",
+    "university": "IIT Bombay",
+    "degree": "B.Tech",
+    "year": 2026,
+    "interests": ["photography", "coding", "gaming"],
+    "behavioral_data": {
+      "previous_ratings": [],
+      "response_patterns": {
+        "liked_interests": {"photography": 2, "coding": 1},
+        "liked_universities": {"IIT Bombay": 2},
+        "liked_age_range": [20, 23]
+      }
+    },
+    "image": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/50.jpg"
+  }
+]
